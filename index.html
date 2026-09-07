@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#090b0e"/>
+<title>FlowDiv｜台股股利・資金・風險</title>
+<style>
+:root{--bg:#090b0e;--panel:#11161c;--panel2:#0d1116;--line:#252d36;--text:#f4f7fa;--muted:#8b97a6;--up:#ff5b61;--down:#49c78f;--blue:#8eb6ff;--amber:#f0b95d}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif}
+body{min-height:100vh}.app{max-width:980px;margin:auto;padding:18px 12px 90px}
+.top{position:sticky;top:0;z-index:9;padding:8px 0 16px;background:linear-gradient(#090b0ef5 78%,#090b0e00);backdrop-filter:blur(16px)}
+.brandline{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.brand{font-size:25px;font-weight:850}.brand span{color:var(--blue)}
+.sub{font-size:12px;color:var(--muted);margin-top:4px}.status{font-size:11px;border:1px solid #32425a;background:#111b29;color:#bed2f8;padding:6px 8px;border-radius:999px}
+.controls{display:flex;gap:8px;margin-top:14px}.search{flex:1;background:var(--panel);border:1px solid var(--line);color:white;border-radius:14px;padding:12px 13px;font-size:15px;outline:none}
+.refresh{border:1px solid var(--line);background:var(--panel);color:#dce5f0;border-radius:14px;padding:0 13px;font-weight:700}
+.tabs{display:flex;gap:8px;overflow:auto;margin-top:9px;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:8px 11px;border-radius:999px;font-size:12px}.tab.on{background:#1b2738;color:white;border-color:#506b93}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:7px 0 15px}.sum{background:linear-gradient(180deg,#14191f,#0e1217);border:1px solid var(--line);border-radius:15px;padding:11px}.sum small{display:block;color:var(--muted);font-size:10px}.sum b{font-size:18px;display:block;margin-top:4px}
+.section{display:flex;justify-content:space-between;align-items:flex-end;margin:17px 2px 10px}.section h2{font-size:16px;margin:0}.section span{font-size:10px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:1fr;gap:10px}.card{position:relative;background:linear-gradient(180deg,#14191f,#0d1116);border:1px solid var(--line);border-radius:18px;padding:14px;overflow:hidden}.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--tone)}
+.head{display:flex;justify-content:space-between;gap:8px}.name{font-weight:800;font-size:17px}.code{color:var(--muted);font-size:11px;margin-top:2px}.risk{font-size:10px;padding:5px 8px;border-radius:999px;border:1px solid currentColor;height:max-content}
+.price{font-size:39px;font-weight:860;letter-spacing:-1px;margin-top:11px}.move{font-size:12px;font-weight:700;margin-top:-2px}.up{color:var(--up)}.down{color:var(--down)}.neutral{color:#c8d0da}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.metric{background:#0a0e12;border:1px solid #202832;border-radius:12px;padding:9px}.metric small{display:block;color:var(--muted);font-size:10px}.metric b{display:block;margin-top:4px;font-size:14px}.flowbar{height:5px;background:#242b33;border-radius:999px;overflow:hidden;margin-top:8px}.flowbar i{display:block;height:100%;border-radius:999px;background:var(--tone)}
+.meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;padding-top:10px;border-top:1px solid #20262e;color:var(--muted);font-size:10px}.meta b{color:#d9e0e8}
+.reason{margin-top:8px;font-size:11px;color:#aeb8c4;line-height:1.45}.empty{padding:28px 14px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:16px}
+.foot{font-size:10px;color:var(--muted);line-height:1.5;margin:15px 3px}
+@media(min-width:720px){.grid{grid-template-columns:repeat(2,1fr)}.app{padding-left:16px;padding-right:16px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brandline">
+      <div><div class="brand">Flow<span>Div</span></div><div class="sub">股利價值 × 法人資金 × 每日風險</div></div>
+      <div class="status" id="status">載入中</div>
+    </div>
+    <div class="controls">
+      <input class="search" id="q" placeholder="搜尋名稱 / 代號"/>
+      <button class="refresh" id="refresh">更新</button>
+    </div>
+    <div class="tabs">
+      <button class="tab on" data-f="all">全部</button>
+      <button class="tab" data-f="in">法人流入</button>
+      <button class="tab" data-f="out">法人流出</button>
+      <button class="tab" data-f="risk">高風險</button>
+      <button class="tab" data-f="yield">高殖利率</button>
+    </div>
+  </div>
+  <div class="summary">
+    <div class="sum"><small>追蹤檔數</small><b id="count">13</b></div>
+    <div class="sum"><small>法人估算淨流</small><b id="flowsum">—</b></div>
+    <div class="sum"><small>平均風險</small><b id="riskavg">—</b></div>
+  </div>
+  <div class="section"><h2>今日追蹤</h2><span id="date">—</span></div>
+  <div class="grid" id="grid"><div class="empty">正在讀取每日資料…</div></div>
+  <div class="foot">風險分數是交易結構提示，不是漲跌預測。法人「資金」以買賣超股數 × 收盤價估算，便於不同個股比較，不等同交易所公布的精確現金流。ETF 的法人籌碼解讀與一般股票不同，請視為輔助指標。</div>
+</div>
+<script>
+let DATA={stocks:[]}, filter='all';
+const $=s=>document.querySelector(s), fmt=n=>n==null?'—':Number(n).toLocaleString('zh-TW',{maximumFractionDigits:1});
+const money=n=>n==null?'—':`${n>=0?'+':''}${fmt(n)}M`;
+const cls=n=>n>0?'up':n<0?'down':'neutral';
+const riskColor=s=>s>=71?'#ff5b61':s>=51?'#f0a75d':s>=31?'#e3ca63':'#55c994';
+async function load(){
+  $('#status').textContent='更新中…';
+  try{
+    const r=await fetch(`data/latest.json?t=${Date.now()}`,{cache:'no-store'});
+    DATA=await r.json();
+    $('#status').textContent=DATA.status||'已更新';
+    $('#date').textContent=(DATA.tradingDate||'尚無交易資料') + (DATA.updatedAt?` · ${new Date(DATA.updatedAt).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'})}`:'');
+    render();
+  }catch(e){$('#status').textContent='讀取失敗';$('#grid').innerHTML='<div class="empty">無法讀取 data/latest.json</div>'}
+}
+function render(){
+  const q=$('#q').value.trim().toLowerCase();
+  let a=(DATA.stocks||[]).filter(s=>(s.name+s.code).toLowerCase().includes(q));
+  if(filter==='in')a=a.filter(s=>(s.institutional?.estimatedFlowM||0)>0);
+  if(filter==='out')a=a.filter(s=>(s.institutional?.estimatedFlowM||0)<0);
+  if(filter==='risk')a=a.filter(s=>(s.risk?.score||0)>=51).sort((x,y)=>(y.risk?.score||0)-(x.risk?.score||0));
+  if(filter==='yield')a=a.filter(s=>(s.dividend?.yield||0)>=4).sort((x,y)=>(y.dividend?.yield||0)-(x.dividend?.yield||0));
+  $('#count').textContent=a.length;
+  const flows=a.map(s=>s.institutional?.estimatedFlowM).filter(Number.isFinite);
+  $('#flowsum').textContent=flows.length?money(flows.reduce((x,y)=>x+y,0)):'—';
+  const risks=a.map(s=>s.risk?.score).filter(Number.isFinite);
+  $('#riskavg').textContent=risks.length?`${Math.round(risks.reduce((x,y)=>x+y,0)/risks.length)}/100`:'—';
+  const max=Math.max(1,...a.map(s=>Math.abs(s.institutional?.estimatedFlowM||0)));
+  if(!a.length){$('#grid').innerHTML='<div class="empty">沒有符合條件的股票</div>';return}
+  $('#grid').innerHTML=a.map(s=>{
+    const p=s.changePct, tone=p>0?'var(--up)':p<0?'var(--down)':'#8f9baa';
+    const flow=s.institutional?.estimatedFlowM, score=s.risk?.score;
+    const w=Math.max(4,Math.abs(flow||0)/max*100);
+    return `<article class="card" style="--tone:${tone}">
+      <div class="head"><div><div class="name">${s.name}</div><div class="code">${s.code} · ${s.type==='etf'?'ETF':'上市'}</div></div>
+      <div class="risk" style="color:${score==null?'#8f9baa':riskColor(score)}">${score==null?'等待風險資料':`${score}/100 ${s.risk.level}`}</div></div>
+      <div class="price ${cls(p)}">${s.price==null?'—':Number(s.price).toFixed(2)}</div>
+      <div class="move ${cls(p)}">${p==null?'尚無收盤資料':`${p>0?'▲':p<0?'▼':'•'} ${Math.abs(s.change||0).toFixed(2)}　${Math.abs(p).toFixed(2)}%`}</div>
+      <div class="metrics">
+        <div class="metric"><small>法人估算淨流入</small><b class="${cls(flow)}">${money(flow)}</b><div class="flowbar"><i style="width:${w}%"></i></div></div>
+        <div class="metric"><small>現金股利 / 殖利率</small><b>${s.dividend?.cash==null?'—':`${s.dividend.cash} 元 · ${s.dividend.yield==null?'—':s.dividend.yield.toFixed(2)+'%'}`}</b><small>${s.dividend?.payDate?`發放 ${s.dividend.payDate}`:'等待公告資料'}</small></div>
+      </div>
+      <div class="meta">
+        <span>外資 <b class="${cls(s.institutional?.foreign)}">${s.institutional?.foreign==null?'—':fmt(s.institutional.foreign/1000)+'張'}</b></span>
+        <span>投信 <b class="${cls(s.institutional?.trust)}">${s.institutional?.trust==null?'—':fmt(s.institutional.trust/1000)+'張'}</b></span>
+        <span>自營 <b class="${cls(s.institutional?.dealer)}">${s.institutional?.dealer==null?'—':fmt(s.institutional.dealer/1000)+'張'}</b></span>
+        <span>成交量 <b>${s.volume==null?'—':fmt(s.volume/1000)+'張'}</b></span>
+      </div>
+      <div class="reason">${s.risk?.reasons?.length?s.risk.reasons.slice(0,3).join('・'):'風險分析會在取得足夠交易資料後顯示'}</div>
+    </article>`;
+  }).join('');
+}
+$('#q').addEventListener('input',render);$('#refresh').addEventListener('click',load);
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');filter=b.dataset.f;render()});
+load();
+</script>
+</body>
+</html>
