@@ -1,0 +1,411 @@
+{
+  "updatedAt": null,
+  "tradingDate": null,
+  "status": "尚未執行自動更新",
+  "source": "TWSE 官方公開資料",
+  "stocks": [
+    {
+      "code": "2885",
+      "name": "元大金",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "2887",
+      "name": "台新新光金",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "4915",
+      "name": "致伸",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "8422",
+      "name": "可寧衛*",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "type": "etf",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "00830",
+      "name": "國泰費城半導體",
+      "type": "etf",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "009805",
+      "name": "台新美國電力基建",
+      "type": "etf",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "1717",
+      "name": "長興",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "type": "stock",
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "open": null,
+      "high": null,
+      "low": null,
+      "volume": null,
+      "turnover": null,
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": null,
+        "exDate": null,
+        "payDate": null,
+        "yield": null
+      },
+      "risk": {
+        "score": null,
+        "level": "等待資料",
+        "reasons": []
+      }
+    }
+  ]
+}
