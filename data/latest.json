@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T03:01:33.688Z",
+  "updatedAt": "2026-09-09T03:18:22.428Z",
   "tradingDate": "2026-09-08",
   "priceDates": [
     "2026-09-08"
@@ -770,6 +770,65 @@
         "level": "穩定",
         "reasons": [
           "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "type": "stock",
+      "priceDate": "2026-09-08",
+      "price": 2470,
+      "change": 10,
+      "changePct": 0.40650406504065045,
+      "open": 2465,
+      "high": 2505,
+      "low": 2460,
+      "volume": 28931697,
+      "turnover": 71769230740,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-08",
+        "ma20": 2407,
+        "avg30": 2385.83,
+        "high30": 2505,
+        "low30": 2180,
+        "vsMa20Pct": 2.62,
+        "vsAvg30Pct": 3.53,
+        "fromHighPct": -1.4,
+        "fromLowPct": 13.3,
+        "belowMonthLine": false,
+        "nearHigh": true,
+        "tags": [
+          "站上月線",
+          "接近30日高點",
+          "高於30日均價 3.5%"
+        ],
+        "signal": {
+          "key": "watch",
+          "label": "停看聽",
+          "color": "yellow",
+          "reason": "價格位於短期中間區，先觀察量價與法人方向"
+        }
+      },
+      "institutional": {
+        "foreign": 5496736,
+        "trust": 1204619,
+        "dealer": -397962,
+        "total": 6303393,
+        "estimatedFlowM": 15569.38071
+      },
+      "dividend": {
+        "cash": 6.00003573,
+        "exDate": null,
+        "payDate": null,
+        "yield": 0.24291642631578944
+      },
+      "risk": {
+        "score": 13,
+        "level": "穩定",
+        "reasons": [
+          "成交量明顯放大"
         ]
       }
     }
