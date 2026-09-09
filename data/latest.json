@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T08:39:05.542Z",
+  "updatedAt": "2026-09-09T10:39:06.928Z",
   "tradingDate": "2026-09-09",
   "priceDates": [
     "2026-09-09"
@@ -18,8 +18,8 @@
       "open": 70.4,
       "high": 70.7,
       "low": 69,
-      "volume": 20874099,
-      "turnover": 1454313342,
+      "volume": 21174099,
+      "turnover": 1477593342,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-09",
@@ -721,8 +721,8 @@
       "open": 37.05,
       "high": 37.25,
       "low": 36,
-      "volume": 52226646,
-      "turnover": 1905517900,
+      "volume": 52826646,
+      "turnover": 1930117900,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-09",
@@ -780,8 +780,8 @@
       "open": 2480,
       "high": 2490,
       "low": 2460,
-      "volume": 16635845,
-      "turnover": 41155260135,
+      "volume": 17798845,
+      "turnover": 44036354474,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-09",
