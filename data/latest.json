@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T08:40:25.003Z",
+  "updatedAt": "2026-09-10T10:39:25.575Z",
   "tradingDate": "2026-09-10",
   "priceDates": [
     "2026-09-10"
@@ -18,8 +18,8 @@
       "open": 69,
       "high": 70.2,
       "low": 69,
-      "volume": 13264213,
-      "turnover": 923743723,
+      "volume": 15088213,
+      "turnover": 1050683483,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-10",
@@ -194,8 +194,8 @@
       "open": 61.2,
       "high": 63,
       "low": 61.2,
-      "volume": 5101412,
-      "turnover": 317824585,
+      "volume": 5773412,
+      "turnover": 359719214,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-10",
@@ -237,7 +237,7 @@
         "score": 25,
         "level": "穩定",
         "reasons": [
-          "成交量約 2.5 倍近期均量"
+          "成交量約 2.8 倍近期均量"
         ]
       }
     },
@@ -719,8 +719,8 @@
       "open": 36.45,
       "high": 37.4,
       "low": 36.45,
-      "volume": 39644435,
-      "turnover": 1471437028,
+      "volume": 41645435,
+      "turnover": 1541689968,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-10",
@@ -778,8 +778,8 @@
       "open": 2445,
       "high": 2455,
       "low": 2435,
-      "volume": 19067796,
-      "turnover": 46639955540,
+      "volume": 19835796,
+      "turnover": 48523945987,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-10",
