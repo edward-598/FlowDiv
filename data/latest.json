@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-17T07:38:38.455Z",
+  "updatedAt": "2026-09-17T08:37:28.753Z",
   "tradingDate": "2026-09-17",
   "priceDates": [
     "2026-09-17"
   ],
-  "status": "收盤已更新・等待法人資料",
+  "status": "收盤與法人資料已更新",
   "source": "TWSE 官方公開資料（STOCK_DAY / T86）",
   "stocks": [
     {
@@ -46,11 +46,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 7850133,
+        "trust": -8334690,
+        "dealer": 172473,
+        "total": -312084,
+        "estimatedFlowM": -21.533796
       },
       "dividend": {
         "cash": 1.8,
@@ -105,11 +105,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": -13872550,
+        "trust": 8063000,
+        "dealer": 403597,
+        "total": -5405953,
+        "estimatedFlowM": -238.13222964999997
       },
       "dividend": {
         "cash": 1,
@@ -118,10 +118,10 @@
         "yield": 2.270147559591374
       },
       "risk": {
-        "score": 10,
+        "score": 20,
         "level": "穩定",
         "reasons": [
-          "今日未見明顯異常交易訊號"
+          "法人籌碼偏流出"
         ]
       }
     },
@@ -164,11 +164,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 3567129,
+        "trust": 3698000,
+        "dealer": -3710,
+        "total": 7261419,
+        "estimatedFlowM": 517.0130328
       },
       "dividend": {
         "cash": 2.5,
@@ -222,11 +222,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": -1520120,
+        "trust": 0,
+        "dealer": 10237,
+        "total": -1509883,
+        "estimatedFlowM": -96.4815237
       },
       "dividend": {
         "cash": 4.568,
@@ -235,10 +235,11 @@
         "yield": 7.14866979655712
       },
       "risk": {
-        "score": 27,
-        "level": "穩定",
+        "score": 45,
+        "level": "留意",
         "reasons": [
-          "下跌且收盤接近日低"
+          "下跌且收盤接近日低",
+          "法人賣超占成交量比重高"
         ]
       }
     },
@@ -280,11 +281,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": -733000,
+        "trust": -1015000,
+        "dealer": 16921,
+        "total": -1731079,
+        "estimatedFlowM": -44.74839215000001
       },
       "dividend": {
         "cash": 1,
@@ -293,10 +294,10 @@
         "yield": 3.8684719535783363
       },
       "risk": {
-        "score": 10,
+        "score": 28,
         "level": "穩定",
         "reasons": [
-          "今日未見明顯異常交易訊號"
+          "法人賣超占成交量比重高"
         ]
       }
     },
@@ -339,11 +340,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 8036956,
+        "trust": 1500000,
+        "dealer": 6600027,
+        "total": 16136983,
+        "estimatedFlowM": 1743.6010131499997
       },
       "dividend": {
         "cash": 0.6,
@@ -397,11 +398,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": -358925,
+        "trust": 0,
+        "dealer": -789499,
+        "total": -1148424,
+        "estimatedFlowM": -92.3907108
       },
       "dividend": {
         "cash": 9,
@@ -410,10 +411,10 @@
         "yield": 11.187072715972654
       },
       "risk": {
-        "score": 10,
+        "score": 28,
         "level": "穩定",
         "reasons": [
-          "今日未見明顯異常交易訊號"
+          "法人賣超占成交量比重高"
         ]
       }
     },
@@ -455,11 +456,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 726000,
+        "trust": 0,
+        "dealer": 145036,
+        "total": 871036,
+        "estimatedFlowM": 12.9348846
       },
       "dividend": {
         "cash": 0.1,
@@ -513,11 +514,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 9109152,
+        "trust": 0,
+        "dealer": 874762,
+        "total": 9983914,
+        "estimatedFlowM": 644.9608443999999
       },
       "dividend": {
         "cash": 0.5,
@@ -526,7 +527,7 @@
         "yield": 0.7739938080495357
       },
       "risk": {
-        "score": 17,
+        "score": 12,
         "level": "穩定",
         "reasons": [
           "今日未見明顯異常交易訊號"
@@ -571,11 +572,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": -419790,
+        "trust": 0,
+        "dealer": -50481,
+        "total": -470271,
+        "estimatedFlowM": -33.530322299999995
       },
       "dividend": {
         "cash": 1,
@@ -584,10 +585,10 @@
         "yield": 1.4025245441795233
       },
       "risk": {
-        "score": 10,
+        "score": 20,
         "level": "穩定",
         "reasons": [
-          "今日未見明顯異常交易訊號"
+          "法人籌碼偏流出"
         ]
       }
     },
@@ -630,11 +631,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 8951822,
+        "trust": 19883000,
+        "dealer": 3569325,
+        "total": 32404147,
+        "estimatedFlowM": 4779.6116825
       },
       "dividend": {
         "cash": 2.6,
@@ -689,11 +690,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 528383,
+        "trust": -1737000,
+        "dealer": -205267,
+        "total": -1413884,
+        "estimatedFlowM": -158.355008
       },
       "dividend": {
         "cash": 3.5,
@@ -702,10 +703,10 @@
         "yield": 3.125
       },
       "risk": {
-        "score": 10,
+        "score": 20,
         "level": "穩定",
         "reasons": [
-          "今日未見明顯異常交易訊號"
+          "法人籌碼偏流出"
         ]
       }
     },
@@ -748,11 +749,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 12687715,
+        "trust": -2270000,
+        "dealer": 842935,
+        "total": 11260650,
+        "estimatedFlowM": 446.4847725
       },
       "dividend": {
         "cash": 1,
@@ -806,11 +807,11 @@
         }
       },
       "institutional": {
-        "foreign": null,
-        "trust": null,
-        "dealer": null,
-        "total": null,
-        "estimatedFlowM": null
+        "foreign": 4794190,
+        "trust": 534410,
+        "dealer": 509161,
+        "total": 5837761,
+        "estimatedFlowM": 14156.570425
       },
       "dividend": {
         "cash": 6.00003573,
