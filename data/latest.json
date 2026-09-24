@@ -1,42 +1,41 @@
 {
-  "updatedAt": "2026-09-23T10:37:58.995Z",
-  "tradingDate": "2026-09-23",
+  "updatedAt": "2026-09-24T06:42:08.778Z",
+  "tradingDate": "2026-09-24",
   "priceDates": [
-    "2026-09-23"
+    "2026-09-24"
   ],
-  "status": "收盤與法人資料已更新",
+  "status": "收盤已更新・等待法人資料",
   "source": "TWSE 官方公開資料（STOCK_DAY / T86）",
   "stocks": [
     {
       "code": "2885",
       "name": "元大金",
       "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 69.6,
-      "change": -1,
-      "changePct": -1.41643059490085,
-      "open": 71.3,
-      "high": 71.3,
-      "low": 69.4,
-      "volume": 17813965,
-      "turnover": 1246837052,
+      "priceDate": "2026-09-24",
+      "price": 69.2,
+      "change": -0.4,
+      "changePct": -0.5747126436781609,
+      "open": 69,
+      "high": 69.5,
+      "low": 68.8,
+      "volume": 12651876,
+      "turnover": 874653106,
       "trend30": {
         "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 68.63,
-        "avg30": 67.35,
+        "priceDate": "2026-09-24",
+        "ma20": 68.93,
+        "avg30": 67.33,
         "high30": 71.7,
         "low30": 61.8,
-        "vsMa20Pct": 1.41,
-        "vsAvg30Pct": 3.34,
-        "fromHighPct": -2.93,
-        "fromLowPct": 12.62,
+        "vsMa20Pct": 0.39,
+        "vsAvg30Pct": 2.77,
+        "fromHighPct": -3.49,
+        "fromLowPct": 11.97,
         "belowMonthLine": false,
-        "nearHigh": true,
+        "nearHigh": false,
         "tags": [
           "站上月線",
-          "接近30日高點",
-          "高於30日均價 3.3%"
+          "高於30日均價 2.8%"
         ],
         "signal": {
           "key": "watch",
@@ -46,24 +45,23 @@
         }
       },
       "institutional": {
-        "foreign": -4960944,
-        "trust": -56000,
-        "dealer": 299559,
-        "total": -4717385,
-        "estimatedFlowM": -328.329996
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
       },
       "dividend": {
         "cash": 1.8,
         "exDate": null,
         "payDate": null,
-        "yield": 2.5862068965517246
+        "yield": 2.601156069364162
       },
       "risk": {
-        "score": 38,
-        "level": "留意",
+        "score": 10,
+        "level": "穩定",
         "reasons": [
-          "下跌且收盤接近日低",
-          "法人賣超占成交量比重高"
+          "今日未見明顯異常交易訊號"
         ]
       }
     },
@@ -71,31 +69,31 @@
       "code": "2887",
       "name": "台新新光金",
       "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 42.95,
-      "change": 0.05,
-      "changePct": 0.11655011655011654,
-      "open": 43.3,
-      "high": 43.3,
-      "low": 42.35,
-      "volume": 38944416,
-      "turnover": 1668756580,
+      "priceDate": "2026-09-24",
+      "price": 42.5,
+      "change": -0.45,
+      "changePct": -1.0477299185098952,
+      "open": 42.55,
+      "high": 43,
+      "low": 42.3,
+      "volume": 22156657,
+      "turnover": 944349536,
       "trend30": {
         "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 41.92,
-        "avg30": 40.24,
+        "priceDate": "2026-09-24",
+        "ma20": 42.18,
+        "avg30": 40.45,
         "high30": 44.8,
-        "low30": 35.25,
-        "vsMa20Pct": 2.46,
-        "vsAvg30Pct": 6.74,
-        "fromHighPct": -4.13,
-        "fromLowPct": 21.84,
+        "low30": 35.7,
+        "vsMa20Pct": 0.76,
+        "vsAvg30Pct": 5.08,
+        "fromHighPct": -5.13,
+        "fromLowPct": 19.05,
         "belowMonthLine": false,
         "nearHigh": false,
         "tags": [
           "站上月線",
-          "高於30日均價 6.7%"
+          "高於30日均價 5.1%"
         ],
         "signal": {
           "key": "watch",
@@ -105,17 +103,17 @@
         }
       },
       "institutional": {
-        "foreign": -2121149,
-        "trust": 2006000,
-        "dealer": 420418,
-        "total": 305269,
-        "estimatedFlowM": 13.11130355
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
       },
       "dividend": {
         "cash": 1,
         "exDate": null,
         "payDate": null,
-        "yield": 2.328288707799767
+        "yield": 2.3529411764705883
       },
       "risk": {
         "score": 10,
@@ -129,31 +127,31 @@
       "code": "2891",
       "name": "中信金",
       "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 68.9,
-      "change": -0.7,
-      "changePct": -1.0057471264367814,
-      "open": 70,
-      "high": 70,
-      "low": 68.9,
-      "volume": 20610634,
-      "turnover": 1425040825,
+      "priceDate": "2026-09-24",
+      "price": 68.5,
+      "change": -0.4,
+      "changePct": -0.5805515239477503,
+      "open": 68.1,
+      "high": 69.1,
+      "low": 68.1,
+      "volume": 17396000,
+      "turnover": 1193330200,
       "trend30": {
         "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 67.84,
-        "avg30": 66.9,
+        "priceDate": "2026-09-24",
+        "ma20": 68.07,
+        "avg30": 66.97,
         "high30": 72,
         "low30": 62.1,
-        "vsMa20Pct": 1.57,
-        "vsAvg30Pct": 2.98,
-        "fromHighPct": -4.31,
-        "fromLowPct": 10.95,
+        "vsMa20Pct": 0.63,
+        "vsAvg30Pct": 2.28,
+        "fromHighPct": -4.86,
+        "fromLowPct": 10.31,
         "belowMonthLine": false,
         "nearHigh": false,
         "tags": [
           "站上月線",
-          "高於30日均價 3.0%"
+          "高於30日均價 2.3%"
         ],
         "signal": {
           "key": "watch",
@@ -163,24 +161,23 @@
         }
       },
       "institutional": {
-        "foreign": -5502465,
-        "trust": 1892000,
-        "dealer": 379566,
-        "total": -3230899,
-        "estimatedFlowM": -222.6089411
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
       },
       "dividend": {
         "cash": 2.5,
         "exDate": null,
         "payDate": null,
-        "yield": 3.6284470246734397
+        "yield": 3.64963503649635
       },
       "risk": {
-        "score": 38,
-        "level": "留意",
+        "score": 10,
+        "level": "穩定",
         "reasons": [
-          "下跌且收盤接近日低",
-          "法人賣超占成交量比重高"
+          "今日未見明顯異常交易訊號"
         ]
       }
     },
@@ -188,495 +185,26 @@
       "code": "4915",
       "name": "致伸",
       "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 64.4,
-      "change": -0.5,
-      "changePct": -0.7704160246533127,
-      "open": 64.9,
-      "high": 65,
-      "low": 64.2,
-      "volume": 1847872,
-      "turnover": 119050616,
+      "priceDate": "2026-09-24",
+      "price": 64.1,
+      "change": -0.3,
+      "changePct": -0.4658385093167702,
+      "open": 64.2,
+      "high": 64.4,
+      "low": 63.7,
+      "volume": 1492781,
+      "turnover": 95660254,
       "trend30": {
         "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 62.29,
-        "avg30": 61.61,
+        "priceDate": "2026-09-24",
+        "ma20": 62.51,
+        "avg30": 61.72,
         "high30": 66.5,
         "low30": 58.8,
-        "vsMa20Pct": 3.39,
-        "vsAvg30Pct": 4.53,
-        "fromHighPct": -3.16,
-        "fromLowPct": 9.52,
-        "belowMonthLine": false,
-        "nearHigh": false,
-        "tags": [
-          "站上月線",
-          "高於30日均價 4.5%"
-        ],
-        "signal": {
-          "key": "watch",
-          "label": "停看聽",
-          "color": "yellow",
-          "reason": "價格位於短期中間區，先觀察量價與法人方向"
-        }
-      },
-      "institutional": {
-        "foreign": -389000,
-        "trust": 300000,
-        "dealer": 42380,
-        "total": -46620,
-        "estimatedFlowM": -3.0023280000000003
-      },
-      "dividend": {
-        "cash": 4.568,
-        "exDate": null,
-        "payDate": null,
-        "yield": 7.0931677018633525
-      },
-      "risk": {
-        "score": 10,
-        "level": "穩定",
-        "reasons": [
-          "今日未見明顯異常交易訊號"
-        ]
-      }
-    },
-    {
-      "code": "8422",
-      "name": "可寧衛*",
-      "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 25.65,
-      "change": -0.05,
-      "changePct": -0.1945525291828794,
-      "open": 25.75,
-      "high": 25.85,
-      "low": 25.65,
-      "volume": 2412054,
-      "turnover": 62038358,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 26.28,
-        "avg30": 26.48,
-        "high30": 27.6,
-        "low30": 25.65,
-        "vsMa20Pct": -2.4,
-        "vsAvg30Pct": -3.12,
-        "fromHighPct": -7.07,
-        "fromLowPct": 0,
-        "belowMonthLine": true,
-        "nearHigh": false,
-        "tags": [
-          "跌破月線",
-          "低於30日均價 3.1%"
-        ],
-        "signal": {
-          "key": "opportunity",
-          "label": "可分批留意",
-          "color": "green",
-          "reason": "價格低於30日均價，估值位置相對不追高，仍需確認趨勢"
-        }
-      },
-      "institutional": {
-        "foreign": -747900,
-        "trust": 2000,
-        "dealer": 19000,
-        "total": -726900,
-        "estimatedFlowM": -18.644985
-      },
-      "dividend": {
-        "cash": 1,
-        "exDate": null,
-        "payDate": null,
-        "yield": 3.8986354775828467
-      },
-      "risk": {
-        "score": 38,
-        "level": "留意",
-        "reasons": [
-          "下跌且收盤接近日低",
-          "法人賣超占成交量比重高"
-        ]
-      }
-    },
-    {
-      "code": "0050",
-      "name": "元大台灣50",
-      "type": "etf",
-      "priceDate": "2026-09-23",
-      "price": 112.45,
-      "change": 0.6,
-      "changePct": 0.5364327223960661,
-      "open": 112.8,
-      "high": 113.15,
-      "low": 112.3,
-      "volume": 58059253,
-      "turnover": 6542992614,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 108.41,
-        "avg30": 107.28,
-        "high30": 113.75,
-        "low30": 102.4,
-        "vsMa20Pct": 3.72,
-        "vsAvg30Pct": 4.82,
-        "fromHighPct": -1.14,
-        "fromLowPct": 9.81,
-        "belowMonthLine": false,
-        "nearHigh": true,
-        "tags": [
-          "站上月線",
-          "接近30日高點",
-          "高於30日均價 4.8%"
-        ],
-        "signal": {
-          "key": "watch",
-          "label": "停看聽",
-          "color": "yellow",
-          "reason": "價格位於短期中間區，先觀察量價與法人方向"
-        }
-      },
-      "institutional": {
-        "foreign": -11051231,
-        "trust": 2200000,
-        "dealer": 6635911,
-        "total": -2215320,
-        "estimatedFlowM": -249.112734
-      },
-      "dividend": {
-        "cash": 0.6,
-        "exDate": null,
-        "payDate": null,
-        "yield": 0.5335704757670076
-      },
-      "risk": {
-        "score": 10,
-        "level": "穩定",
-        "reasons": [
-          "今日未見明顯異常交易訊號"
-        ]
-      }
-    },
-    {
-      "code": "00830",
-      "name": "國泰費城半導體",
-      "type": "etf",
-      "priceDate": "2026-09-23",
-      "price": 88.6,
-      "change": 2.05,
-      "changePct": 2.368573079145003,
-      "open": 88.5,
-      "high": 88.65,
-      "low": 88.25,
-      "volume": 9868227,
-      "turnover": 873112559,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 82.25,
-        "avg30": 83.21,
-        "high30": 89.05,
-        "low30": 78.95,
-        "vsMa20Pct": 7.72,
-        "vsAvg30Pct": 6.47,
-        "fromHighPct": -0.51,
-        "fromLowPct": 12.22,
-        "belowMonthLine": false,
-        "nearHigh": true,
-        "tags": [
-          "站上月線",
-          "接近30日高點",
-          "高於30日均價 6.5%"
-        ],
-        "signal": {
-          "key": "caution",
-          "label": "不追價",
-          "color": "pink",
-          "reason": "接近30日高點且明顯高於月線，短線追價風險偏高"
-        }
-      },
-      "institutional": {
-        "foreign": 2144565,
-        "trust": 0,
-        "dealer": 1403185,
-        "total": 3547750,
-        "estimatedFlowM": 314.33065
-      },
-      "dividend": {
-        "cash": 9,
-        "exDate": null,
-        "payDate": null,
-        "yield": 10.15801354401806
-      },
-      "risk": {
-        "score": 12,
-        "level": "穩定",
-        "reasons": [
-          "今日未見明顯異常交易訊號"
-        ]
-      }
-    },
-    {
-      "code": "009805",
-      "name": "台新美國電力基建",
-      "type": "etf",
-      "priceDate": "2026-09-23",
-      "price": 15.15,
-      "change": 0.19,
-      "changePct": 1.2700534759358288,
-      "open": 15,
-      "high": 15.18,
-      "low": 14.99,
-      "volume": 8377072,
-      "turnover": 126347357,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 14.99,
-        "avg30": 15.26,
-        "high30": 16.4,
-        "low30": 14.6,
-        "vsMa20Pct": 1.04,
-        "vsAvg30Pct": -0.71,
-        "fromHighPct": -7.62,
-        "fromLowPct": 3.77,
-        "belowMonthLine": false,
-        "nearHigh": false,
-        "tags": [
-          "站上月線",
-          "低於30日均價 0.7%"
-        ],
-        "signal": {
-          "key": "watch",
-          "label": "停看聽",
-          "color": "yellow",
-          "reason": "價格位於短期中間區，先觀察量價與法人方向"
-        }
-      },
-      "institutional": {
-        "foreign": -1099000,
-        "trust": 0,
-        "dealer": -3752970,
-        "total": -4851970,
-        "estimatedFlowM": -73.5073455
-      },
-      "dividend": {
-        "cash": 0.1,
-        "exDate": null,
-        "payDate": null,
-        "yield": 0.6600660066006601
-      },
-      "risk": {
-        "score": 36,
-        "level": "留意",
-        "reasons": [
-          "成交量明顯放大",
-          "法人賣超占成交量比重高"
-        ]
-      }
-    },
-    {
-      "code": "1301",
-      "name": "台塑",
-      "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 63.1,
-      "change": -1.5,
-      "changePct": -2.321981424148607,
-      "open": 64.8,
-      "high": 64.9,
-      "low": 62.9,
-      "volume": 19143508,
-      "turnover": 1215945138,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 64.83,
-        "avg30": 62.7,
-        "high30": 71.2,
-        "low30": 55.9,
-        "vsMa20Pct": -2.68,
-        "vsAvg30Pct": 0.63,
-        "fromHighPct": -11.38,
-        "fromLowPct": 12.88,
-        "belowMonthLine": true,
-        "nearHigh": false,
-        "tags": [
-          "跌破月線",
-          "高於30日均價 0.6%"
-        ],
-        "signal": {
-          "key": "opportunity",
-          "label": "可分批留意",
-          "color": "green",
-          "reason": "跌破月線且已離30日高點一段距離，可觀察止跌與法人回流"
-        }
-      },
-      "institutional": {
-        "foreign": -1677647,
-        "trust": 0,
-        "dealer": 28388,
-        "total": -1649259,
-        "estimatedFlowM": -104.0682429
-      },
-      "dividend": {
-        "cash": 0.5,
-        "exDate": null,
-        "payDate": null,
-        "yield": 0.7923930269413629
-      },
-      "risk": {
-        "score": 37,
-        "level": "留意",
-        "reasons": [
-          "下跌且收盤接近日低",
-          "法人籌碼偏流出"
-        ]
-      }
-    },
-    {
-      "code": "1717",
-      "name": "長興",
-      "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 71.1,
-      "change": 0.1,
-      "changePct": 0.14084507042253522,
-      "open": 71.7,
-      "high": 72.3,
-      "low": 70.8,
-      "volume": 4970764,
-      "turnover": 354791424,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 73.98,
-        "avg30": 73.27,
-        "high30": 85.5,
-        "low30": 68.1,
-        "vsMa20Pct": -3.89,
-        "vsAvg30Pct": -2.96,
-        "fromHighPct": -16.84,
-        "fromLowPct": 4.41,
-        "belowMonthLine": true,
-        "nearHigh": false,
-        "tags": [
-          "跌破月線",
-          "低於30日均價 3.0%"
-        ],
-        "signal": {
-          "key": "opportunity",
-          "label": "可分批留意",
-          "color": "green",
-          "reason": "跌破月線且已離30日高點一段距離，可觀察止跌與法人回流"
-        }
-      },
-      "institutional": {
-        "foreign": 745651,
-        "trust": -597000,
-        "dealer": -108376,
-        "total": 40275,
-        "estimatedFlowM": 2.8635525
-      },
-      "dividend": {
-        "cash": 1,
-        "exDate": null,
-        "payDate": null,
-        "yield": 1.4064697609001409
-      },
-      "risk": {
-        "score": 10,
-        "level": "穩定",
-        "reasons": [
-          "今日未見明顯異常交易訊號"
-        ]
-      }
-    },
-    {
-      "code": "2303",
-      "name": "聯電",
-      "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 160,
-      "change": 0,
-      "changePct": 0,
-      "open": 163,
-      "high": 163,
-      "low": 158,
-      "volume": 124757294,
-      "turnover": 19981967622,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 139.95,
-        "avg30": 133.48,
-        "high30": 168.5,
-        "low30": 112,
-        "vsMa20Pct": 14.33,
-        "vsAvg30Pct": 19.87,
-        "fromHighPct": -5.04,
-        "fromLowPct": 42.86,
-        "belowMonthLine": false,
-        "nearHigh": false,
-        "tags": [
-          "站上月線",
-          "高於30日均價 19.9%"
-        ],
-        "signal": {
-          "key": "watch",
-          "label": "停看聽",
-          "color": "yellow",
-          "reason": "價格位於短期中間區，先觀察量價與法人方向"
-        }
-      },
-      "institutional": {
-        "foreign": -10353990,
-        "trust": 1374000,
-        "dealer": -1154643,
-        "total": -10134633,
-        "estimatedFlowM": -1621.54128
-      },
-      "dividend": {
-        "cash": 2.6,
-        "exDate": null,
-        "payDate": null,
-        "yield": 1.625
-      },
-      "risk": {
-        "score": 20,
-        "level": "穩定",
-        "reasons": [
-          "法人籌碼偏流出"
-        ]
-      }
-    },
-    {
-      "code": "2882",
-      "name": "國泰金",
-      "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 111.5,
-      "change": -0.5,
-      "changePct": -0.4464285714285714,
-      "open": 112.5,
-      "high": 112.5,
-      "low": 110.5,
-      "volume": 17346843,
-      "turnover": 1939114768,
-      "trend30": {
-        "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 110.97,
-        "avg30": 107.29,
-        "high30": 117,
-        "low30": 97,
-        "vsMa20Pct": 0.47,
-        "vsAvg30Pct": 3.92,
-        "fromHighPct": -4.7,
-        "fromLowPct": 14.95,
+        "vsMa20Pct": 2.55,
+        "vsAvg30Pct": 3.85,
+        "fromHighPct": -3.61,
+        "fromLowPct": 9.01,
         "belowMonthLine": false,
         "nearHigh": false,
         "tags": [
@@ -691,55 +219,114 @@
         }
       },
       "institutional": {
-        "foreign": -2723844,
-        "trust": 1307000,
-        "dealer": 67890,
-        "total": -1348954,
-        "estimatedFlowM": -150.408371
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
       },
       "dividend": {
-        "cash": 3.5,
+        "cash": 4.568,
         "exDate": null,
         "payDate": null,
-        "yield": 3.1390134529147984
+        "yield": 7.126365054602184
       },
       "risk": {
-        "score": 20,
+        "score": 10,
         "level": "穩定",
         "reasons": [
-          "法人籌碼偏流出"
+          "今日未見明顯異常交易訊號"
         ]
       }
     },
     {
-      "code": "2883",
-      "name": "凱基金",
+      "code": "8422",
+      "name": "可寧衛*",
       "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 39.35,
-      "change": 0.05,
-      "changePct": 0.1272264631043257,
-      "open": 39.45,
-      "high": 39.5,
-      "low": 38.85,
-      "volume": 35038084,
-      "turnover": 1372252127,
+      "priceDate": "2026-09-24",
+      "price": 25.55,
+      "change": -0.1,
+      "changePct": -0.3898635477582846,
+      "open": 25.65,
+      "high": 25.65,
+      "low": 25.5,
+      "volume": 3187000,
+      "turnover": 81444700,
       "trend30": {
         "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 37.1,
-        "avg30": 35.16,
-        "high30": 40.8,
-        "low30": 30.05,
-        "vsMa20Pct": 6.06,
-        "vsAvg30Pct": 11.92,
-        "fromHighPct": -3.55,
-        "fromLowPct": 30.95,
-        "belowMonthLine": false,
+        "priceDate": "2026-09-24",
+        "ma20": 26.21,
+        "avg30": 26.45,
+        "high30": 27.6,
+        "low30": 25.5,
+        "vsMa20Pct": -2.51,
+        "vsAvg30Pct": -3.39,
+        "fromHighPct": -7.43,
+        "fromLowPct": 0.2,
+        "belowMonthLine": true,
         "nearHigh": false,
         "tags": [
+          "跌破月線",
+          "低於30日均價 3.4%"
+        ],
+        "signal": {
+          "key": "opportunity",
+          "label": "可分批留意",
+          "color": "green",
+          "reason": "價格低於30日均價，估值位置相對不追高，仍需確認趨勢"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 1,
+        "exDate": null,
+        "payDate": null,
+        "yield": 3.9138943248532287
+      },
+      "risk": {
+        "score": 10,
+        "level": "穩定",
+        "reasons": [
+          "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "type": "etf",
+      "priceDate": "2026-09-24",
+      "price": 112.4,
+      "change": -0.05,
+      "changePct": -0.044464206313917294,
+      "open": 112,
+      "high": 112.45,
+      "low": 111.75,
+      "volume": 70487939,
+      "turnover": 7897568283,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 108.73,
+        "avg30": 107.47,
+        "high30": 113.75,
+        "low30": 102.4,
+        "vsMa20Pct": 3.38,
+        "vsAvg30Pct": 4.59,
+        "fromHighPct": -1.19,
+        "fromLowPct": 9.77,
+        "belowMonthLine": false,
+        "nearHigh": true,
+        "tags": [
           "站上月線",
-          "高於30日均價 11.9%"
+          "接近30日高點",
+          "高於30日均價 4.6%"
         ],
         "signal": {
           "key": "watch",
@@ -749,17 +336,424 @@
         }
       },
       "institutional": {
-        "foreign": -345337,
-        "trust": -652000,
-        "dealer": 484677,
-        "total": -512660,
-        "estimatedFlowM": -20.173171
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 0.6,
+        "exDate": null,
+        "payDate": null,
+        "yield": 0.5338078291814946
+      },
+      "risk": {
+        "score": 10,
+        "level": "穩定",
+        "reasons": [
+          "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "00830",
+      "name": "國泰費城半導體",
+      "type": "etf",
+      "priceDate": "2026-09-24",
+      "price": 88,
+      "change": -0.6,
+      "changePct": -0.6772009029345373,
+      "open": 87.65,
+      "high": 88.05,
+      "low": 87.65,
+      "volume": 7034798,
+      "turnover": 618499584,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 82.46,
+        "avg30": 83.18,
+        "high30": 89.05,
+        "low30": 78.95,
+        "vsMa20Pct": 6.71,
+        "vsAvg30Pct": 5.79,
+        "fromHighPct": -1.18,
+        "fromLowPct": 11.46,
+        "belowMonthLine": false,
+        "nearHigh": true,
+        "tags": [
+          "站上月線",
+          "接近30日高點",
+          "高於30日均價 5.8%"
+        ],
+        "signal": {
+          "key": "caution",
+          "label": "不追價",
+          "color": "pink",
+          "reason": "接近30日高點且明顯高於月線，短線追價風險偏高"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 9,
+        "exDate": null,
+        "payDate": null,
+        "yield": 10.227272727272728
+      },
+      "risk": {
+        "score": 10,
+        "level": "穩定",
+        "reasons": [
+          "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "009805",
+      "name": "台新美國電力基建",
+      "type": "etf",
+      "priceDate": "2026-09-24",
+      "price": 14.95,
+      "change": -0.2,
+      "changePct": -1.3201320132013203,
+      "open": 15,
+      "high": 15.02,
+      "low": 14.95,
+      "volume": 2279294,
+      "turnover": 34137158,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 14.97,
+        "avg30": 15.21,
+        "high30": 16.4,
+        "low30": 14.6,
+        "vsMa20Pct": -0.14,
+        "vsAvg30Pct": -1.74,
+        "fromHighPct": -8.84,
+        "fromLowPct": 2.4,
+        "belowMonthLine": true,
+        "nearHigh": false,
+        "tags": [
+          "跌破月線",
+          "低於30日均價 1.7%"
+        ],
+        "signal": {
+          "key": "opportunity",
+          "label": "可分批留意",
+          "color": "green",
+          "reason": "跌破月線且已離30日高點一段距離，可觀察止跌與法人回流"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 0.1,
+        "exDate": null,
+        "payDate": null,
+        "yield": 0.6688963210702342
+      },
+      "risk": {
+        "score": 20,
+        "level": "穩定",
+        "reasons": [
+          "下跌且收盤接近日低"
+        ]
+      }
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "type": "stock",
+      "priceDate": "2026-09-24",
+      "price": 64.1,
+      "change": 1,
+      "changePct": 1.5847860538827259,
+      "open": 62.7,
+      "high": 64.7,
+      "low": 62,
+      "volume": 16415790,
+      "turnover": 1046703251,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 64.88,
+        "avg30": 62.92,
+        "high30": 71.2,
+        "low30": 55.9,
+        "vsMa20Pct": -1.21,
+        "vsAvg30Pct": 1.87,
+        "fromHighPct": -9.97,
+        "fromLowPct": 14.67,
+        "belowMonthLine": true,
+        "nearHigh": false,
+        "tags": [
+          "跌破月線",
+          "高於30日均價 1.9%"
+        ],
+        "signal": {
+          "key": "opportunity",
+          "label": "可分批留意",
+          "color": "green",
+          "reason": "跌破月線且已離30日高點一段距離，可觀察止跌與法人回流"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 0.5,
+        "exDate": null,
+        "payDate": null,
+        "yield": 0.7800312012480499
+      },
+      "risk": {
+        "score": 20,
+        "level": "穩定",
+        "reasons": [
+          "日內振幅擴大"
+        ]
+      }
+    },
+    {
+      "code": "1717",
+      "name": "長興",
+      "type": "stock",
+      "priceDate": "2026-09-24",
+      "price": 71.4,
+      "change": 0.3,
+      "changePct": 0.42194092827004215,
+      "open": 72,
+      "high": 72,
+      "low": 70.3,
+      "volume": 4319467,
+      "turnover": 307240693,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 73.76,
+        "avg30": 73.04,
+        "high30": 85.5,
+        "low30": 68.1,
+        "vsMa20Pct": -3.2,
+        "vsAvg30Pct": -2.25,
+        "fromHighPct": -16.49,
+        "fromLowPct": 4.85,
+        "belowMonthLine": true,
+        "nearHigh": false,
+        "tags": [
+          "跌破月線",
+          "低於30日均價 2.2%"
+        ],
+        "signal": {
+          "key": "opportunity",
+          "label": "可分批留意",
+          "color": "green",
+          "reason": "跌破月線且已離30日高點一段距離，可觀察止跌與法人回流"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
       },
       "dividend": {
         "cash": 1,
         "exDate": null,
         "payDate": null,
-        "yield": 2.5412960609911055
+        "yield": 1.4005602240896358
+      },
+      "risk": {
+        "score": 10,
+        "level": "穩定",
+        "reasons": [
+          "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
+      "type": "stock",
+      "priceDate": "2026-09-24",
+      "price": 154,
+      "change": -6,
+      "changePct": -3.75,
+      "open": 157,
+      "high": 157,
+      "low": 152,
+      "volume": 153511000,
+      "turnover": 23625173000,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 141.72,
+        "avg30": 134.47,
+        "high30": 168.5,
+        "low30": 112,
+        "vsMa20Pct": 8.66,
+        "vsAvg30Pct": 14.53,
+        "fromHighPct": -8.61,
+        "fromLowPct": 37.5,
+        "belowMonthLine": false,
+        "nearHigh": false,
+        "tags": [
+          "站上月線",
+          "高於30日均價 14.5%"
+        ],
+        "signal": {
+          "key": "watch",
+          "label": "停看聽",
+          "color": "yellow",
+          "reason": "價格位於短期中間區，先觀察量價與法人方向"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 2.6,
+        "exDate": null,
+        "payDate": null,
+        "yield": 1.6883116883116884
+      },
+      "risk": {
+        "score": 17,
+        "level": "穩定",
+        "reasons": [
+          "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "type": "stock",
+      "priceDate": "2026-09-24",
+      "price": 110.5,
+      "change": -1,
+      "changePct": -0.8968609865470852,
+      "open": 110.5,
+      "high": 111.5,
+      "low": 110,
+      "volume": 11811664,
+      "turnover": 1305441250,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 111.38,
+        "avg30": 107.66,
+        "high30": 117,
+        "low30": 97,
+        "vsMa20Pct": -0.79,
+        "vsAvg30Pct": 2.64,
+        "fromHighPct": -5.56,
+        "fromLowPct": 13.92,
+        "belowMonthLine": true,
+        "nearHigh": false,
+        "tags": [
+          "跌破月線",
+          "高於30日均價 2.6%"
+        ],
+        "signal": {
+          "key": "opportunity",
+          "label": "可分批留意",
+          "color": "green",
+          "reason": "跌破月線且已離30日高點一段距離，可觀察止跌與法人回流"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 3.5,
+        "exDate": null,
+        "payDate": null,
+        "yield": 3.167420814479638
+      },
+      "risk": {
+        "score": 10,
+        "level": "穩定",
+        "reasons": [
+          "今日未見明顯異常交易訊號"
+        ]
+      }
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "type": "stock",
+      "priceDate": "2026-09-24",
+      "price": 38.95,
+      "change": -0.4,
+      "changePct": -1.0165184243964422,
+      "open": 38.9,
+      "high": 39.25,
+      "low": 38.65,
+      "volume": 20805805,
+      "turnover": 809366434,
+      "trend30": {
+        "days": 30,
+        "priceDate": "2026-09-24",
+        "ma20": 37.44,
+        "avg30": 35.41,
+        "high30": 40.8,
+        "low30": 30.05,
+        "vsMa20Pct": 4.03,
+        "vsAvg30Pct": 10,
+        "fromHighPct": -4.53,
+        "fromLowPct": 29.62,
+        "belowMonthLine": false,
+        "nearHigh": false,
+        "tags": [
+          "站上月線",
+          "高於30日均價 10.0%"
+        ],
+        "signal": {
+          "key": "watch",
+          "label": "停看聽",
+          "color": "yellow",
+          "reason": "價格位於短期中間區，先觀察量價與法人方向"
+        }
+      },
+      "institutional": {
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
+      },
+      "dividend": {
+        "cash": 1,
+        "exDate": null,
+        "payDate": null,
+        "yield": 2.567394094993581
       },
       "risk": {
         "score": 10,
@@ -773,32 +767,32 @@
       "code": "2330",
       "name": "台積電",
       "type": "stock",
-      "priceDate": "2026-09-23",
-      "price": 2500,
-      "change": 40,
-      "changePct": 1.6260162601626018,
-      "open": 2475,
-      "high": 2505,
-      "low": 2475,
-      "volume": 22817873,
-      "turnover": 56893530280,
+      "priceDate": "2026-09-24",
+      "price": 2475,
+      "change": -25,
+      "changePct": -1,
+      "open": 2480,
+      "high": 2490,
+      "low": 2470,
+      "volume": 14324662,
+      "turnover": 35518243390,
       "trend30": {
         "days": 30,
-        "priceDate": "2026-09-23",
-        "ma20": 2429.25,
-        "avg30": 2417.33,
+        "priceDate": "2026-09-24",
+        "ma20": 2432.5,
+        "avg30": 2418.67,
         "high30": 2510,
         "low30": 2335,
-        "vsMa20Pct": 2.91,
-        "vsAvg30Pct": 3.42,
-        "fromHighPct": -0.4,
-        "fromLowPct": 7.07,
+        "vsMa20Pct": 1.75,
+        "vsAvg30Pct": 2.33,
+        "fromHighPct": -1.39,
+        "fromLowPct": 6,
         "belowMonthLine": false,
         "nearHigh": true,
         "tags": [
           "站上月線",
           "接近30日高點",
-          "高於30日均價 3.4%"
+          "高於30日均價 2.3%"
         ],
         "signal": {
           "key": "watch",
@@ -808,17 +802,17 @@
         }
       },
       "institutional": {
-        "foreign": 7123363,
-        "trust": -973707,
-        "dealer": 324168,
-        "total": 6473824,
-        "estimatedFlowM": 16184.56
+        "foreign": null,
+        "trust": null,
+        "dealer": null,
+        "total": null,
+        "estimatedFlowM": null
       },
       "dividend": {
         "cash": 6.00003573,
         "exDate": null,
         "payDate": null,
-        "yield": 0.2400014292
+        "yield": 0.24242568606060605
       },
       "risk": {
         "score": 10,
