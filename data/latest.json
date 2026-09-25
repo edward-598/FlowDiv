@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T10:38:14.902Z",
+  "updatedAt": "2026-09-25T06:42:51.128Z",
   "tradingDate": "2026-09-24",
   "priceDates": [
     "2026-09-24"
@@ -804,10 +804,10 @@
       },
       "institutional": {
         "foreign": -4667832,
-        "trust": -1013718,
+        "trust": -1287718,
         "dealer": 242701,
-        "total": -5438849,
-        "estimatedFlowM": -13461.151275
+        "total": -5712849,
+        "estimatedFlowM": -14139.301275
       },
       "dividend": {
         "cash": 6.00003573,
