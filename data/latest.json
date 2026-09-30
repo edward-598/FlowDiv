@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T08:41:43.393Z",
+  "updatedAt": "2026-09-30T10:40:29.112Z",
   "tradingDate": "2026-09-30",
   "priceDates": [
     "2026-09-30"
@@ -18,8 +18,8 @@
       "open": 69.2,
       "high": 69.3,
       "low": 68.5,
-      "volume": 15649901,
-      "turnover": 1075350365,
+      "volume": 16759201,
+      "turnover": 1151461438,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
@@ -76,8 +76,8 @@
       "open": 42.45,
       "high": 42.45,
       "low": 41.95,
-      "volume": 34429971,
-      "turnover": 1449670616,
+      "volume": 34912298,
+      "turnover": 1469904233,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
@@ -134,8 +134,8 @@
       "open": 69.6,
       "high": 69.6,
       "low": 68.4,
-      "volume": 26395156,
-      "turnover": 1811853299,
+      "volume": 26479156,
+      "turnover": 1817598899,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
@@ -603,8 +603,8 @@
       "open": 157.5,
       "high": 158,
       "low": 154.5,
-      "volume": 102327360,
-      "turnover": 16003818276,
+      "volume": 102405360,
+      "turnover": 16015869276,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
@@ -661,8 +661,8 @@
       "open": 111.5,
       "high": 112.5,
       "low": 111,
-      "volume": 21365817,
-      "turnover": 2384203233,
+      "volume": 22090817,
+      "turnover": 2465098313,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
@@ -719,8 +719,8 @@
       "open": 39.4,
       "high": 39.4,
       "low": 38.75,
-      "volume": 33768663,
-      "turnover": 1315676655,
+      "volume": 34492869,
+      "turnover": 1343812058,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
@@ -777,8 +777,8 @@
       "open": 2495,
       "high": 2510,
       "low": 2480,
-      "volume": 32530300,
-      "turnover": 81036561840,
+      "volume": 34282491,
+      "turnover": 85388527300,
       "trend30": {
         "days": 30,
         "priceDate": "2026-09-30",
