@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T06:47:01.761Z",
+  "updatedAt": "2026-10-01T07:42:24.297Z",
   "tradingDate": "2026-10-01",
   "priceDates": [
     "2026-10-01"
@@ -462,10 +462,10 @@
         "estimatedFlowM": null
       },
       "dividend": {
-        "cash": 0.1,
+        "cash": null,
         "exDate": null,
         "payDate": null,
-        "yield": 0.6688963210702342
+        "yield": null
       },
       "risk": {
         "score": 10,
@@ -486,8 +486,8 @@
       "open": 68.2,
       "high": 69.2,
       "low": 66.3,
-      "volume": 18900000,
-      "turnover": 1270225900,
+      "volume": 19100785,
+      "turnover": 1283671665,
       "trend30": {
         "days": 30,
         "priceDate": "2026-10-01",
@@ -603,8 +603,8 @@
       "open": 156,
       "high": 161.5,
       "low": 155.5,
-      "volume": 111928000,
-      "turnover": 17759634500,
+      "volume": 114242075,
+      "turnover": 18128901416,
       "trend30": {
         "days": 30,
         "priceDate": "2026-10-01",
