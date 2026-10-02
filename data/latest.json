@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T06:46:07.743Z",
+  "updatedAt": "2026-10-02T07:41:00.713Z",
   "tradingDate": "2026-10-02",
   "priceDates": [
     "2026-10-02"
@@ -308,8 +308,8 @@
       "open": 112.85,
       "high": 112.95,
       "low": 112.3,
-      "volume": 64776000,
-      "turnover": 7296776400,
+      "volume": 68967747,
+      "turnover": 7769230752,
       "trend30": {
         "days": 30,
         "priceDate": "2026-10-02",
