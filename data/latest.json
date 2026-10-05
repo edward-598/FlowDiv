@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T08:44:25.147Z",
+  "updatedAt": "2026-10-05T10:42:06.338Z",
   "tradingDate": "2026-10-05",
   "priceDates": [
     "2026-10-05"
@@ -79,21 +79,21 @@
       "volume": 36545158,
       "turnover": 1496984351,
       "trend30": {
-        "days": 23,
+        "days": 30,
         "priceDate": "2026-10-05",
         "ma20": 42.55,
-        "avg30": 42.34,
+        "avg30": 41.19,
         "high30": 44.8,
-        "low30": 38.85,
+        "low30": 35.85,
         "vsMa20Pct": -3.99,
-        "vsAvg30Pct": -3.53,
+        "vsAvg30Pct": -0.82,
         "fromHighPct": -8.82,
-        "fromLowPct": 5.15,
+        "fromLowPct": 13.95,
         "belowMonthLine": true,
         "nearHigh": false,
         "tags": [
           "跌破月線",
-          "低於30日均價 3.5%"
+          "低於30日均價 0.8%"
         ],
         "signal": {
           "key": "opportunity",
@@ -781,8 +781,8 @@
       "open": 2550,
       "high": 2580,
       "low": 2545,
-      "volume": 26404187,
-      "turnover": 67780840260,
+      "volume": 26800187,
+      "turnover": 68799148330,
       "trend30": {
         "days": 30,
         "priceDate": "2026-10-05",
